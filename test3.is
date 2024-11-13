@@ -1,0 +1,8 @@
+attrib red = {
+diffusibility = 1.0 ( 0.7 , 0.0 , 0.0 );
+}
+object = sphere ( 50 );
+camera 0,0,0,0,0,0,1;
+light parallel(-50,50),0.7,0.7,0.7;
+light ambience 0.3,0.3,0.3;
+put object at (0,0,-200);

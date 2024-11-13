@@ -1,0 +1,6 @@
+#! /bin/csh
+time Compiler/isc test3.is
+mv test3.is.pis t
+time Renderer/is -a 4 t
+decompose /dev/null t.r t.g t.b < t.img
+# compose t.r t.g t.b | rgbtox 256 240 | xwudx

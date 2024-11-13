@@ -1,0 +1,73 @@
+ax^2+by^2+cz^2+dyz+exz+fxy+gx+hy+iz+j=0
+
+X=r11x+r12y+r13z
+Y=r21x+r22y+r23z
+Z=r31x+r32y+r33z
+
+ a(r11X+r12Y+r13Z)^2
++b(r21X+r22Y+r23Z)^2
++c(r31X+r32Y+r33Z)^2
++d(r21X+r22Y+r23Z)(r31X+r32Y+r33Z)
++e(r11X+r12Y+r13Z)(r31X+r32Y+r33Z)
++f(r11X+r12Y+r13Z)(r21X+r22Y+r23Z)
++g(r11X+r12Y+r13Z)
++h(r21X+r22Y+r23Z)
++i(r31X+r32Y+r33Z)
++j=0
+
+ a(r11^2X^2+r12^2Y^2+r13^2Z^2+2r12Yr13Z+2r11Xr13Z+2r11Xr12Y)
++b(r21^2X^2+r22^2Y^2+r23^2Z^2+2r22Yr23Z+2r21Xr23Z+2r21Xr22Y)
++c(r31^2X^2+r32^2Y^2+r33^2Z^2+2r32Yr33Z+2r31Xr33Z+2r31Xr32Y)
++d(r21r31X^2+r22r32Y^2+r23r33Z^2+r22Yr33Z+r32Yr23Z+r21Xr33Z+r31Xr23Z+r21Xr32Y+r31Xr22Y
++e(r11r31X^2+r12r32Y^2+r13r33Z^2+r12Yr33Z+r32Yr13Z+r11Xr33Z+r31Xr13Z+r11Xr32Y+r31Xr12Y
++f(r11r21X^2+r12r22Y^2+r13r23Z^2+r12Yr23Z+r22Yr13Z+r11Xr23Z+r21Xr13Z+r11Xr22Y+r21Xr12Y
++g(r11X+r12Y+r13Z)
++h(r21X+r22Y+r23Z)
++i(r31X+r32Y+r33Z)
++j=0
+
+ ar11^2X^2+ar12^2Y^2+ar13^2Z^2+2ar12Yr13Z+2ar11Xr13Z+2ar11Xr12Y
++br21^2X^2+br22^2Y^2+br23^2Z^2+2br22Yr23Z+2br21Xr23Z+2br21Xr22Y
++cr31^2X^2+cr32^2Y^2+cr33^2Z^2+2cr32Yr33Z+2cr31Xr33Z+2cr31Xr32Y
++dr21r31X^2+dr22r32Y^2+dr23r33Z^2+dr22Yr33Z+dr32Yr23Z+dr21Xr33Z+dr31Xr23Z+dr21Xr32Y+dr31Xr22Y
++er11r31X^2+er12r32Y^2+er13r33Z^2+er12Yr33Z+er32Yr13Z+er11Xr33Z+er31Xr13Z+er11Xr32Y+er31Xr12Y
++fr11r21X^2+fr12r22Y^2+fr13r23Z^2+fr12Yr23Z+fr22Yr13Z+fr11Xr23Z+fr21Xr13Z+fr11Xr22Y+fr21Xr12Y
++gr11X+gr12Y+gr13Z
++hr21X+hr22Y+hr23Z
++ir31X+ir32Y+ir33Z
++j=0
+
+  (ar11^2)X^2+ (ar12^2)Y^2+ (ar13^2)Z^2+        (2ar12r13)YZ+        (2ar11r13)XZ+        (2ar11r12)XY
++ (br21^2)X^2+ (br22^2)Y^2+ (br23^2)Z^2+        (2br22r23)YZ+        (2br21r23)XZ+        (2br21r22)XY
++ (cr31^2)X^2+ (cr32^2)Y^2+ (cr33^2)Z^2+        (2cr32r33)YZ+        (2cr31r33)XZ+        (2cr31r32)XY
++(dr21r31)X^2+(dr22r32)Y^2+(dr23r33)Z^2+(d(r22r33+r32r23))YZ+(d(r21r33+r31r23))XZ+(d(r21r32+r31r22))XY
++(er11r31)X^2+(er12r32)Y^2+(er13r33)Z^2+(e(r12r33+r32r13))YZ+(e(r11r33+r31r13))XZ+(e(r11r32+r31r12))XY
++(fr11r21)X^2+(fr12r22)Y^2+(fr13r23)Z^2+(f(r12r23+r22r13))YZ+(f(r11r23+r21r13))XZ+(f(r11r22+r21r12))XY
++(gr11)X+(gr12)Y+(gr13)Z
++(hr21)X+(hr22)Y+(hr23)Z
++(ir31)X+(ir32)Y+(ir33)Z
++j=0
+
+ (ar11^2+br21^2+cr31^2+dr21r31+er11r31+fr11r21)X^2
++(ar12^2+br22^2+cr32^2+dr22r32+er12r32+fr12r22)Y^2
++(ar13^2+br23^2+cr33^2+dr23r33+er13r33+fr13r23)Z^2
++(2(ar12r13+br22r23+cr32r33)+d(r22r33+r32r23)+e(r12r33+r32r13)+f(r12r23+r22r13))YZ
++(2(ar11r13+br21r23+cr31r33)+d(r21r33+r31r23)+e(r11r33+r31r13)+f(r11r23+r21r13))XZ
++(2(ar11r12+br21r22+cr31r32)+d(r21r32+r31r22)+e(r11r32+r31r12)+f(r11r22+r21r12))XY
++(gr11+hr21+ir31)X
++(gr12+hr22+ir32)Y
++(gr13+hr23+ir33)Z
++j=0
+
+AX^2+BY^2+CZ^2+DYZ+EXZ+FXY+GX+HY+IZ+J=0
+
+A=ar11^2+br21^2+cr31^2+dr21r31+er11r31+fr11r21
+B=ar12^2+br22^2+cr32^2+dr22r32+er12r32+fr12r22
+C=ar13^2+br23^2+cr33^2+dr23r33+er13r33+fr13r23
+D=2(ar12r13+br22r23+cr32r33)+d(r22r33+r32r23)+e(r12r33+r32r13)+f(r12r23+r22r13)
+E=2(ar11r13+br21r23+cr31r33)+d(r21r33+r31r23)+e(r11r33+r31r13)+f(r11r23+r21r13)
+F=2(ar11r12+br21r22+cr31r32)+d(r21r32+r31r22)+e(r11r32+r31r12)+f(r11r22+r21r12)
+G=gr11+hr21+ir31
+H=gr12+hr22+ir32
+I=gr13+hr23+ir33
+J=j

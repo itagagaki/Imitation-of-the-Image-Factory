@@ -1,0 +1,2 @@
+include "test2.is"
+object = sphere ( 80 ) move ( [0,10,0] ) + sphere ( 10 );

@@ -1,0 +1,65 @@
+IS
+
+第一世代の追跡光線の始点が、ある物体の内部である場合の問題解決
+追跡光線がプリミティブの内部にすっぽり含まれる場合の問題解決
+アンタイエイリアシングの微分操作
+αチャネルの出力
+
+テクスチャマッピング
+バンプマッピング
+
+分光
+回折
+粗面反射
+粒子散乱
+グロウイング
+フレア
+分配レイトレース
+透明物体による光線（視線ではない）の屈折
+wire frame
+Z-sort
+Z-buffer
+scanline
+triangle primitive (c.f. PIXEL No.26 PP.134)
+torus primitive
+potential function, meta ellipsoid
+fire attribute
+patch curve
+parametric curve
+B-spline curve
+Bezier curve
+線光源、面光源
+相互反射
+
+
+
+ISCOM, ISMAN
+
+stereo scopic
+camera specifications
+direction specification of camera, light
+parameter hyperboloid,paraboloid,cone,cylinder,plane
+put syntax
+free shno
+レンジプリミティブの自動生成
+フォント
+天空光
+環境の屈折率、ＲＧＢ透過率
+シフトレンズの実現
+２Ｄ→３Ｄ拡張
+フラクタル
+数値変数、ベクトル変数
+オブジェクト指向化
+アニメーション（時間軸の追加）
+モーションブラー
+
+error operation
+size, warning, initialize of alloc
+check re-free
+type conversion of NULL, etc.
+check overflow of number of bussing shape and attr limited 65535
+initialize shape, attr, object, light, camera
+check overload of shape, attr, object, light, camera
+display symbol for 31 letters at error, etc.
+
+attribute editor

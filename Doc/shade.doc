@@ -1,0 +1,21 @@
+
+|R|   	     |kdr|   |Iar|          |Ir|	    |ksr|             |Ir|
+|G|   =	  kd |kdg| ( |Iag| + cos(a) |Ig| )   +	 kh |ksg| torrance(b) |Ig|
+|B|   	     |kdb|   |Iab|          |Ib|	    |ksb|             |Ib|
+
+	     |ksr|		|Sr|				   |Tr|
+      +	  ks |ksg| reflect(r,n) |Sg|   +   (if trans) refract(r,n) |Tg|
+	     |ksb|		|Sb|				   |Tb|
+
+	    |Lr|
+      +	  L |Lg| cos(r)
+	    |Lb|
+
+					trans	untrans
+kd		diffusibility		(0.0)
+kdr,kdg,kdb	surface color		(0.0)
+kh		highlight strength
+ks		specular strength	1.0
+ksr,ksg,ksb	specular color		1.0
+L		luminous strength
+Lr,Lg,Lb	luminous color

@@ -1,0 +1,15 @@
+output filename			-o
+aspect ratio			-v
+overall resolution		-r
+genaration window		-g
+display window			-d
+depth of anti-aliasing		-a
+threshold of anti-aliasing	-
+depth of ray tracing		-l
+threshold of ray tracing	-t
+un-shadowing flag		-s
+un-highlight flag		-h
+
+eye is in object
+transparency object is in transparency object
+complex transparency object
